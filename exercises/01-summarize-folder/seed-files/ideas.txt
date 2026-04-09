@@ -1,0 +1,25 @@
+Project Ideas — Brainstorm Session
+
+1. Internal CLI Tool
+   Build a command-line tool that automates our deploy process.
+   Right now it takes 6 manual steps. Could cut it down to one command.
+
+2. Customer Feedback Portal
+   A simple web app where customers can submit feature requests and
+   upvote existing ones. Would help us prioritize the roadmap based
+   on actual user demand instead of guessing.
+
+3. Weekly Digest Bot
+   A bot that summarizes the week's commits, closed issues, and
+   Slack highlights into a single digest email every Friday.
+   Keeps everyone in the loop without extra meetings.
+
+4. API Usage Dashboard
+   Visualize how our API is being used — which endpoints get the
+   most traffic, error rates, average response times. We have the
+   logs but nobody looks at them.
+
+5. Onboarding Checklist App
+   An interactive checklist for new team members. Links to all the
+   accounts they need, repos to clone, docs to read. Better than
+   the current Google Doc that's always out of date.

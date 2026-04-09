@@ -1,0 +1,28 @@
+Team Sync — March 12, 2026
+
+Attendees: Sarah, Marcus, Priya, James
+
+Key Discussion Points:
+
+1. Project Atlas Launch
+   Sarah confirmed that Project Atlas is on track for an April release.
+   The landing page is done. Marcus is finishing the API documentation
+   this week. Priya raised a concern about load testing — we haven't
+   run any yet, and she wants at least one round before launch.
+
+2. Onboarding Flow Redesign
+   James presented the new onboarding mockups. The team agreed on a
+   three-step flow instead of the current five-step one. James will
+   build a prototype by March 20th for internal testing.
+
+3. Bug Backlog
+   There are 14 open bugs, 3 of which are marked critical. Priya will
+   prioritize the critical bugs this sprint. Marcus volunteered to help
+   with the payment gateway timeout issue since he worked on that
+   module before.
+
+Action Items:
+- Marcus: Finish API docs by March 15
+- Priya: Run load testing for Atlas, fix critical bugs
+- James: Onboarding prototype by March 20
+- Sarah: Schedule stakeholder demo for the last week of March
