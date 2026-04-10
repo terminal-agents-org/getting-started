@@ -20,6 +20,7 @@ jobs:
   codex:
     if: |
       github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issues' && contains(github.event.issue.body, '@codex')) ||
       (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@codex')) ||
       (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@codex'))
 
@@ -30,7 +31,7 @@ jobs:
       final_message: ${{ steps.run_codex.outputs.final-message }}
 
     env:
-      TARGET_NUMBER: ${{ github.event_name == 'pull_request_review_comment' && github.event.pull_request.number || github.event_name == 'issue_comment' && github.event.issue.number || '' }}
+      TARGET_NUMBER: ${{ github.event_name == 'issues' && github.event.issue.number || github.event_name == 'pull_request_review_comment' && github.event.pull_request.number || github.event_name == 'issue_comment' && github.event.issue.number || '' }}
       COMMENT_BODY: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.prompt || github.event.comment.body }}
       CHECKOUT_REF: ${{ github.event_name == 'pull_request_review_comment' && format('refs/pull/{0}/merge', github.event.pull_request.number) || (github.event_name == 'issue_comment' && github.event.issue.pull_request && format('refs/pull/{0}/merge', github.event.issue.number)) || github.event.repository.default_branch }}
 
@@ -82,5 +83,5 @@ jobs:
               body: process.env.CODEX_FINAL_MESSAGE,
             });
         env:
-          TARGET_NUMBER: ${{ github.event_name == 'pull_request_review_comment' && github.event.pull_request.number || github.event_name == 'issue_comment' && github.event.issue.number || '' }}
+          TARGET_NUMBER: ${{ github.event_name == 'issues' && github.event.issue.number || github.event_name == 'pull_request_review_comment' && github.event.pull_request.number || github.event_name == 'issue_comment' && github.event.issue.number || '' }}
           CODEX_FINAL_MESSAGE: ${{ needs.codex.outputs.final_message }}
