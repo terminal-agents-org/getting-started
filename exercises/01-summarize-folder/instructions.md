@@ -51,7 +51,7 @@ The agent will:
 
 You may see the agent ask for permission to read files or create the new file. **Approve these actions** -- when prompted, type `y` and press Enter (or click Allow). These permission checks are a safety feature that lets you stay in control.
 
-**Codex users:** Codex runs in 'suggest' mode by default -- it will show you each action and wait for your approval. Press Enter or type `y` to approve each step. This is normal and expected for your first run.
+**Codex users:** Codex may ask you to approve actions such as reading files or creating `summary.md`. If prompted, approve them and continue.
 
 ### 4. Check the result
 

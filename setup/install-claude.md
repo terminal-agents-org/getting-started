@@ -24,6 +24,8 @@ irm https://claude.ai/install.ps1 | iex
 
 This downloads and runs the native installer. It does not require Node.js.
 
+> **Alternative:** If your organization blocks PowerShell install scripts, try `winget install Anthropic.ClaudeCode`.
+
 **What you should see:** The installer will download Claude Code and set up the `claude` command. If Git is not installed, it will prompt you to install it first.
 
 > **Important:** After the installer finishes, **close your terminal and open a new one**. The PATH changes need a fresh terminal to take effect.
@@ -80,7 +82,7 @@ claude "What files are in this directory?"
 - Start Claude Code by running `claude`, then type `/login` at the Claude Code prompt (not in your regular terminal).
 
 **Git-related errors**
-- Claude Code on Windows requires Git Bash. Install Git from [git-scm.com](https://git-scm.com) and try again.
+- Claude Code on Windows requires Git for Windows (which includes Git Bash) or WSL. You can launch `claude` from PowerShell, CMD, or Git Bash. Install Git from [git-scm.com](https://git-scm.com) if you don't have it.
 
 ## Next Step
 

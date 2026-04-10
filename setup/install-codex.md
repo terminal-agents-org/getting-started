@@ -10,7 +10,7 @@ Codex is OpenAI's terminal-based coding agent. It runs on your machine, can read
 
 - **Windows 10 or 11**
 - **Node.js 22 or newer** (we'll check this below)
-- **An OpenAI Pro subscription** (Plus, Pro, Business, Edu, or Enterprise all work)
+- **A supported ChatGPT plan** (Plus, Pro, Business, Edu, or Enterprise all work)
 
 ## Step 1: Check if Node.js Is Installed
 
@@ -77,7 +77,7 @@ codex "What files are in this directory?"
 - Make sure you used `npm install -g` (the `-g` flag installs it globally).
 
 **Authentication fails**
-- Make sure your OpenAI subscription is active at [platform.openai.com](https://platform.openai.com).
+- Make sure your ChatGPT plan supports Codex and that you're signed into the correct account. Check your plan under [ChatGPT settings](https://chatgpt.com/#settings).
 - Try running `codex login` to re-authenticate.
 
 **npm permission errors**

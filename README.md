@@ -11,13 +11,14 @@ This module takes you from zero terminal agent experience to completing your fir
 Before starting, make sure you have:
 
 - **VSCode** installed on your computer
-- **A GitHub account** (free is fine)
+- **Git** installed ([git-scm.com](https://git-scm.com)) -- needed to clone this repository (and for the Claude Code path)
 - **One of these subscriptions:**
   - An OpenAI subscription (Plus, Pro, or higher) for Codex -- this is the recommended path
   - Anthropic API key or Claude Pro/Max subscription (for Claude Code)
 - **Node.js 22 or newer** (needed for Codex -- download from [nodejs.org](https://nodejs.org) if you don't have it; not needed for the Claude Code path)
-- **Git** installed ([git-scm.com](https://git-scm.com)) -- needed for the Claude Code path
 - **Willingness to try the command line** -- no prior experience needed, we'll walk you through every step
+
+> **No Git?** You can also download this repository as a ZIP file from the green "Code" button on the [GitHub page](https://github.com/terminal-agents-org/getting-started) and extract it.
 
 ## How to Use This Module
 
@@ -29,11 +30,9 @@ Open a terminal (PowerShell) and navigate to a folder where you want to keep you
 git clone https://github.com/terminal-agents-org/getting-started.git
 ```
 
-This creates a `getting-started` folder in your current location. Open it in VSCode:
+This creates a `getting-started` folder in your current location. Open it in VSCode: use **File > Open Folder** and select the `getting-started` folder.
 
-```
-code getting-started
-```
+> **Tip:** If you have the VSCode `code` command on your PATH, you can also run `code getting-started` from the terminal.
 
 ### 2. Choose Your Agent
 
