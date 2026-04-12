@@ -18,7 +18,7 @@ Before starting, make sure you have:
 - **Node.js 22 or newer** (needed for Codex -- download from [nodejs.org](https://nodejs.org) if you don't have it; not needed for the Claude Code path)
 - **Willingness to try the command line** -- no prior experience needed, we'll walk you through every step
 
-> **No Git?** You can also download this repository as a ZIP file from the green "Code" button on the [GitHub page](https://github.com/terminal-agents-org/getting-started) and extract it.
+> **No Git?** If you're following the **Codex path**, you can download this repository as a ZIP file from the green "Code" button on the [GitHub page](https://github.com/terminal-agents-org/getting-started) and extract it. Note: the extracted folder will be named `getting-started-main` — rename it to `getting-started` so the instructions match. (The **Claude Code path** requires Git, so you'll need to install it first.)
 
 ## How to Use This Module
 

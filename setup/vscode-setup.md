@@ -30,7 +30,7 @@ Or go to **View > Terminal** from the menu bar.
 
 **What you should see:** A terminal panel appears at the bottom of VSCode. It should show a command prompt.
 
-This guide assumes you're using **PowerShell**, which is the default terminal in VSCode on Windows. If your terminal shows something different (like `bash` or `cmd`), click the dropdown arrow (&#9662;) next to the **+** button in the terminal panel and select **PowerShell**.
+This guide assumes you're using **PowerShell**, which is typically the default terminal in VSCode on Windows. If your terminal shows something different (like `bash` or `cmd`), click the dropdown arrow (&#9662;) next to the **+** button in the terminal panel and select **PowerShell**.
 
 ## Step 3: Verify Your Agent Is Available
 

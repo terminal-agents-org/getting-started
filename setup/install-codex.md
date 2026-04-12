@@ -2,7 +2,7 @@
 
 *Last updated: April 2026*
 
-For the latest official instructions, see the [OpenAI Codex CLI documentation](https://github.com/openai/codex).
+For the latest official instructions, see the [OpenAI Codex CLI documentation](https://developers.openai.com/codex/cli) and the [GitHub repository](https://github.com/openai/codex).
 
 Codex is OpenAI's terminal-based coding agent. It runs on your machine, can read and write files, and responds to natural language instructions. This guide walks you through installing it on Windows.
 
@@ -70,7 +70,7 @@ codex "What files are in this directory?"
 
 ## Troubleshooting
 
-**Windows users:** Codex CLI on Windows is currently labeled experimental by OpenAI. Most users will have no issues, but if you run into problems, consider using [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install) as an alternative -- note that WSL setup requires some additional effort.
+**Windows users:** Codex CLI on Windows is labeled experimental by OpenAI, though native support has improved significantly in 2026 (including an AppContainer-based sandbox). Most users will have no issues. If you do run into problems, OpenAI recommends [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install) as the most stable alternative — see the [official Windows guide](https://developers.openai.com/codex/windows) for details.
 
 **"codex is not recognized"**
 - Close your terminal and open a new one. The PATH update from npm may need a fresh terminal.
